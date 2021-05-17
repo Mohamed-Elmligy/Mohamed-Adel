@@ -1,0 +1,20 @@
+{
+    "name": "portofolio",
+    "version": "1.0.0",
+    "description": "That is version one of my portofolio web site and what it going to build by HTML5 CSS3 JS JQuery SCSS Bootstrap git and github  ",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "server": "lite-server",
+        "scss": "node-sass -w scss/ -o css/"
+    },
+    "author": "Mohamed Adel",
+    "license": "ISC",
+    "dependencies": {
+        "bootstrap": "^5.0.1",
+        "jquery": "^3.6.0",
+        "lite-server": "^2.6.1",
+        "node-sass": "^6.0.0",
+        "popper.js": "^1.16.1"
+    }
+}
